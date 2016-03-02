@@ -1,0 +1,27 @@
+﻿body{
+	background: #000;
+	text-align: center;
+}
+a{
+	font-size: 30px;
+	color: #f00;
+	text-decoration: none;
+	font-family: 'Creepster', cursive;
+
+}
+img{
+	-webkit-animation: my 6s cubic-bezier(.47,1.13,.84,1.04);
+	-o-animation: my 6s cubic-bezier(.47,1.13,.84,1.04);
+	animation: my 6s cubic-bezier(.47,1.13,.84,1.04);
+}
+@keyframes my{
+	0%{width: 0%;}
+	50%{width: 35%;}
+	100%{width: 40%;}
+}
+@-webkit-keyframes my{
+	0%{width: 0%;}
+	50%{width: 35%;}
+	100%{width: 40%;}
+}
+

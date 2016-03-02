@@ -1,0 +1,100 @@
+body{
+	background: #272822 url(images/fonn.jpg);
+	background-size: cover;
+}
+header{ 
+	margin: auto;
+	background: #000000;
+	font-family: 'Creepster', cursive;
+	font-size: 35px;
+	padding: 20px;	
+
+}
+.icon>i{
+	font-size: 20px;
+	margin: 0;
+	color: #FFAE5E;
+}
+.navbar-nav>li>.dropdown-menu{
+	background: rgba(0, 0, 0, 0.6);
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.navbar-toggle{
+	background: #333;
+	float: none;
+}
+.icon-bar{
+	background: #ddd;
+}
+.close{
+	position: absolute;
+ 	left: 15px;
+ 	z-index: 10;
+ 	color: #f90;
+ 	opacity: 1
+}
+#menu a{
+	color: #F66E05;
+	margin-left: 20px;
+}
+#menu a.head-menu:focus,  #menu a.head-menu:hover, #menu a.head-menu:active{
+	background: #F66E05;
+	color: #000;
+	border-radius: 10px;
+	box-shadow: 5px 5px 5px 5px #000;
+}
+.navbar-brand{
+	font-size: 70px;
+}
+.dropdown-menu:before{
+	content: '';
+  	display: block;
+  	width: 0px;
+  	height: 0px;
+  	border: 10px #E2534B solid;
+ 	border-color: transparent transparent #E2534B transparent;
+ 	position: absolute;
+ 	top: -15px;
+ 	left: 50px;
+}
+.foto{
+	margin-top: 60px;
+	text-align: center;
+}
+.foto h1{
+	background: #000;
+	color: #FF0000;
+	font-family: 'Trade Winds', cursive;
+}
+.modal-dialog img{
+	float: left;
+}
+.carousel-inner img{
+	width: 100%;
+	height: auto;
+}
+.up{
+  	font-size: 40px;
+  	color: #fff;
+  	position: fixed;
+  	bottom: 50px;
+  	right: 100px;
+  	border-radius: 50%;
+
+  	-webkit-animation: color 0.5s alternate infinite;
+  	-o-animation: color 0.5s alternate infinite;
+	animation: color 0.5s alternate infinite;
+}	
+@keyframes color{
+	0%{background-color: #000;}
+	100%{background-color: #FF8306;}
+}
+@-webkit-keyframes color{
+	0%{background-color: #000;}
+	100%{background-color: #FF8306;}
+}
+.up:hover, .up:active, .up:focus, .up:visited{
+	color: #fff;
+}
